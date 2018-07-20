@@ -1,0 +1,88 @@
+body{
+	font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+	text-decoration:none; 
+	color: gray;
+}
+#site-nav {
+    background-color: #f2f2f2;
+	width: 1584px;
+	height: 32px;
+}
+
+#lefttext{
+	width: 525px;
+	height: 26px;
+    float: left;
+    position: relative;
+}
+#lefttext a:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.first-login{
+	padding-left: 12px;
+}
+.first-register{
+	padding-left: 10px;
+}
+#menu
+{
+	width: 1480px;
+	font-size: 12px;
+}
+#menu ul
+{
+	display: block;
+	width: 100%;
+	margin: 0;
+    position: relative;
+}
+#menu ul li
+{
+    list-style-type: none;
+	float: left;
+	height: 32px;
+	width: 80px;
+	line-height: 32px;
+	background: #f2f2f2;            
+    color: gray;
+    text-align: center;
+}
+#menu ul li ul
+{
+	list-style-type: none;
+	display: list-item;
+	margin: 0;
+	position: relative;
+	display: none;
+}
+#menu ul li a
+{
+	text-decoration: none;
+	color: gray;
+}
+#menu ul li:hover
+{
+	background: white;
+	cursor: pointer;
+}
+#menu ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#menu ul li:hover ul
+{
+	display: inline;
+}
+#menu ul li:hover ul li:hover
+{
+	background: white;
+	color: gray;
+	cursor: pointer;
+}
